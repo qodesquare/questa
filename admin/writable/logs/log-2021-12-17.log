@@ -1,0 +1,72 @@
+CRITICAL - 2021-12-17 11:02:40 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 25)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\exam_results.php(50): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#8 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(287): view('examinations/ex...', Array)
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('YRVAL7E')
+#10 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-17 12:53:46 --> Unknown column 'added_by' in 'field list'
+CRITICAL - 2021-12-17 12:53:46 --> Unknown column 'added_by' in 'field list'
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `questio...', 0)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `questio...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `questio...')
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `questio...', Array, false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Models\Question_model.php(30): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(49): App\Models\Question_model->update_question(Array, Array)
+#6 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(21): App\Controllers\Questions->add_questions(Object(stdClass), 'UL2Y2EZQGC')
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->push_question()
+#8 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-17 12:53:54 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 25)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\view_examination.php(72): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(166): view('examinations/vi...', Array)
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('UL2Y2EZQGC')
+#10 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-17 12:57:13 --> Unknown column 'exam_added_by' in 'field list'
+CRITICAL - 2021-12-17 12:57:13 --> Unknown column 'exam_added_by' in 'field list'
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `questio...', 0)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `questio...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `questio...')
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `questio...', Array, false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Models\Question_model.php(30): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(49): App\Models\Question_model->update_question(Array, Array)
+#6 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(21): App\Controllers\Questions->add_questions(Object(stdClass), 'UL2Y2EZQGC')
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->push_question()
+#8 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-17 12:58:04 --> Unknown column 'question_added_by' in 'field list'
+CRITICAL - 2021-12-17 12:58:04 --> Unknown column 'question_added_by' in 'field list'
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `questio...', 0)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `questio...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `questio...')
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `questio...', Array, false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Models\Question_model.php(30): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(49): App\Models\Question_model->update_question(Array, Array)
+#6 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(21): App\Controllers\Questions->add_questions(Object(stdClass), 'UL2Y2EZQGC')
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->push_question()
+#8 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

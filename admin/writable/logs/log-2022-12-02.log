@@ -1,0 +1,140 @@
+CRITICAL - 2022-12-02 07:31:36 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 07:31:37 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:51 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:52 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:52 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:53 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:54 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:55 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:56 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:56 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:58 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:58 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:05:59 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:06:44 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:07:08 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:07:13 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:07:15 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:14:21 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(227): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 10:33:47 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-02 12:02:46 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

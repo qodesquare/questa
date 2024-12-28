@@ -1,0 +1,841 @@
+CRITICAL - 2021-12-02 00:22:00 --> Undefined index: question
+#0 D:\WampServer\www\cbt_app\app\Controllers\Questions.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 111, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Questions->delete_question()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 00:43:26 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 00:43:40 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('6I7GZKAGVEE')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 00:44:29 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-02 00:45:14 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 00:45:14 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(103): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:48:29 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 00:48:29 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(103): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:49:12 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 00:49:12 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(105): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:51:24 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 00:51:24 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(105): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:52:28 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 00:52:28 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(105): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:55:49 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 00:55:49 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(114): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(96): App\Controllers\Examinations->set_image('question_3', '1638428149_308f...')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('question_3')
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-02 00:55:55 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(61): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(80): view('examinations/vi...', Array)
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-02 00:55:55 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(61): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(80): view('examinations/vi...', Array)
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-02 00:56:19 --> Undefined index: title
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\list_of_exams.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 91, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/li...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(14): view('examinations/li...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->index()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 00:56:59 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 00:56:59 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(114): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(96): App\Controllers\Examinations->set_image('QUE_0J0P95EPBU', '1638428219_368d...')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-02 01:05:40 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 01:05:40 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(112): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->set_image()
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 01:06:00 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 01:06:00 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `qu...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(112): App\Models\Examination_model->add_item(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->set_image()
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-02 01:08:57 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\WampServer\www\cbt_app\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('examinations/vi...')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('examinations/vi...')
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:09:10 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:09:40 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:10:08 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:12:27 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:12:50 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:13:28 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:13:42 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:13:54 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:14:15 --> Too few arguments to function App\Controllers\Examinations::upload_file(), 1 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 2 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-02 01:15:01 --> Unknown column 'entry_id' in 'field list'
+CRITICAL - 2021-12-02 01:15:01 --> Unknown column 'entry_id' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `questio...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `questio...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `questio...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `questio...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Question_model.php(31): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(95): App\Models\Question_model->update_question(Array, Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 01:15:45 --> Unknown column 'image_path' in 'field list'
+CRITICAL - 2021-12-02 01:15:45 --> Unknown column 'image_path' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `questio...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `questio...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `questio...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `questio...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Question_model.php(31): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(95): App\Models\Question_model->update_question(Array, Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file('QUE_0J0P95EPBU')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 01:21:58 --> Duplicate entry 'What is the full meaning of USA?' for key 'title'
+CRITICAL - 2021-12-02 01:21:58 --> Duplicate entry 'What is the full meaning of USA?' for key 'title'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `questio...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `questio...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `questio...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `questio...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Question_model.php(31): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Questions.php(46): App\Models\Question_model->update_question(Array, Array)
+#6 D:\WampServer\www\cbt_app\app\Controllers\Questions.php(21): App\Controllers\Questions->add_questions(Object(stdClass), 'LVYAH6GWYH')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Questions->push_question()
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-02 01:33:33 --> Undefined property: stdClass::$image
+#0 D:\WampServer\www\cbt_app\app\Controllers\Questions.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\WampServer\\w...', 31, Array)
+#1 D:\WampServer\www\cbt_app\app\Controllers\Questions.php(21): App\Controllers\Questions->add_questions(Object(stdClass), 'LVYAH6GWYH')
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Questions->push_question()
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#4 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-02 01:35:48 --> Undefined property: stdClass::$image
+#0 D:\WampServer\www\cbt_app\app\Controllers\Questions.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\WampServer\\w...', 31, Array)
+#1 D:\WampServer\www\cbt_app\app\Controllers\Questions.php(21): App\Controllers\Questions->add_questions(Object(stdClass), 'LVYAH6GWYH')
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Questions->push_question()
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#4 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-02 02:10:26 --> Undefined variable: mdoel
+#0 D:\WampServer\www\cbt_app\app\Controllers\Candidates.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 12, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Candidates->index()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:23:20 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\WampServer\www\cbt_app\system\View\View.php(214): include()
+#1 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ed...', Array, true)
+#3 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(71): view('examinations/ed...', Array)
+#4 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->edit_examination('LVYAH6GWYH')
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-02 02:33:33 --> Class 'App\Controllers\Class_model' not found
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->add_examination()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-02 02:33:48 --> Table 'cbt_app_db.classes_tb' doesn't exist
+CRITICAL - 2021-12-02 02:33:48 --> Table 'cbt_app_db.classes_tb' doesn't exist
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WampServer\www\cbt_app\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WampServer\www\cbt_app\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\WampServer\www\cbt_app\app\Models\Class_model.php(13): CodeIgniter\BaseModel->findAll()
+#7 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(65): App\Models\Class_model->get_class()
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->add_examination()
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-02 02:40:11 --> Undefined variable: classes
+#0 D:\WampServer\www\cbt_app\app\Views\classes\list_of_classes.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 85, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('classes/list_of...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Classes.php(11): view('classes/list_of...')
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Classes->index()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:40:33 --> Undefined variable: classes
+#0 D:\WampServer\www\cbt_app\app\Views\classes\list_of_classes.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 85, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('classes/list_of...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Classes.php(14): view('classes/list_of...')
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Classes->index()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:40:34 --> Undefined variable: classes
+#0 D:\WampServer\www\cbt_app\app\Views\classes\list_of_classes.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 85, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('classes/list_of...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Classes.php(14): view('classes/list_of...')
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Classes->index()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:43:56 --> Undefined index: 
+#0 D:\WampServer\www\cbt_app\app\Views\classes\list_of_classes.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 88, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('classes/list_of...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Classes.php(14): view('classes/list_of...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Classes->index()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:53:32 --> Undefined variable: subjects
+#0 D:\WampServer\www\cbt_app\app\Views\subjects\list_of_subjects.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 85, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('subjects/list_o...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Subjects.php(13): view('subjects/list_o...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Subjects->index()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subjects))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:56:56 --> Class 'App\Controllers\Subject_model' not found
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->add_examination()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 02:57:58 --> Undefined variable: classes
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\edit_examination.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 99, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ed...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(79): view('examinations/ed...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->edit_examination('LVYAH6GWYH')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 03:07:03 --> Too few arguments to function App\Controllers\Examinations::edit_examination(), 0 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->edit_examination()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-02 03:07:26 --> Unknown column 'title' in 'field list'
+CRITICAL - 2021-12-02 03:07:26 --> Unknown column 'title' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `examina...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `examina...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `examina...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `examina...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(31): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(90): App\Models\Examination_model->update_exam(Array, Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->edit_examination('LVYAH6GWYH')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 03:12:54 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2021-12-02 03:12:54 --> Column 'id' in where clause is ambiguous
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Base_model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(21): App\Models\Base_model->get_with_join_b('examinations_tb', 'classes_tb', 'subjects_tb', Array, 'examinations_tb...', 'examinations_tb...')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->index()
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-02 03:14:58 --> Undefined index: exam_id
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 93, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(158): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 03:16:41 --> Undefined index: subect_name
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 99, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(158): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 03:21:09 --> syntax error, unexpected '<'
+#0 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('subjects/list_o...', Array, true)
+#2 D:\WampServer\www\cbt_app\app\Controllers\Subjects.php(13): view('subjects/list_o...', Array)
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Subjects->index()
+#4 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subjects))
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 03:33:54 --> Class 'App\Controllers\User_model' not found
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Users->add_user()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 03:35:35 --> Undefined variable: users
+#0 D:\WampServer\www\cbt_app\app\Views\users\list_of_users.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 86, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('users/list_of_u...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Users.php(14): view('users/list_of_u...')
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 04:46:48 --> Class 'App\Controllers\User_model' not found
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Classes->fetch_class()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 05:05:36 --> Undefined index: subject_id
+#0 D:\WampServer\www\cbt_app\app\Controllers\Subjects.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 98, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Subjects->edit_subject()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subjects))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:05:50 --> Undefined index: subject_id
+#0 D:\WampServer\www\cbt_app\app\Controllers\Subjects.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 98, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Subjects->edit_subject()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subjects))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:06:34 --> Undefined index: subject_id
+#0 D:\WampServer\www\cbt_app\app\Controllers\Subjects.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 98, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Subjects->edit_subject()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subjects))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:47:41 --> Call to undefined method App\Models\Examination_model::get_with_join_a
+#0 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(163): CodeIgniter\Model->__call('get_with_join_a', Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('D0UK44JP25')
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 12:47:48 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(66): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(166): view('examinations/vi...', Array)
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('D0UK44JP25')
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-02 12:47:48 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(66): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(166): view('examinations/vi...', Array)
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-02 12:47:50 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2021-12-02 12:47:50 --> Unknown column 'username' in 'where clause'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WampServer\www\cbt_app\system\Model.php(723): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\WampServer\www\cbt_app\app\Models\User_model.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\WampServer\www\cbt_app\app\Controllers\Auth.php(66): App\Models\User_model->get_user(Array)
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-02 12:48:51 --> Undefined index: username
+#0 D:\WampServer\www\cbt_app\app\Controllers\Auth.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 63, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 14:02:02 --> Undefined index: subject_id
+#0 D:\WampServer\www\cbt_app\app\Controllers\Subjects.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 98, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Subjects->edit_subject()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subjects))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 14:02:51 --> Undefined index: candidate_id
+#0 D:\WampServer\www\cbt_app\app\Controllers\Candidates.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 95, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Candidates->edit_candidate()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 14:09:43 --> Too few arguments to function App\Controllers\Candidates::delete_candidate(), 0 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Candidates->delete_candidate()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 14:10:34 --> Too few arguments to function App\Controllers\Candidates::delete_candidate(), 0 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Candidates->delete_candidate()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 14:10:36 --> Too few arguments to function App\Controllers\Candidates::delete_candidate(), 0 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Candidates->delete_candidate()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 14:10:59 --> Too few arguments to function App\Controllers\Candidates::delete_candidate(), 0 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Candidates->delete_candidate()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 14:12:53 --> Too few arguments to function App\Controllers\Candidates::delete_candidate(), 0 passed in D:\WampServer\www\cbt_app\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Candidates->delete_candidate()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 14:44:34 --> Class 'App\Controllers\Candidate_model' not found
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-02 15:01:06 --> Unknown column 'exam_id' in 'where clause'
+CRITICAL - 2021-12-02 15:01:06 --> Unknown column 'exam_id' in 'where clause'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(86): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(160): App\Models\Examination_model->get_candidates(Array)
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-02 22:41:23 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(66): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-02 22:41:23 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(66): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-02 22:50:51 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 266, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:51:35 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 279, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:52:06 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 278, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:52:36 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 278, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:52:46 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 278, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:53:00 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 278, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:53:07 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 278, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:53:36 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 278, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:54:00 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 278, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:55:24 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 279, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:57:08 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 279, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 22:58:42 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 279, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('assets', 'images', 'logo.png')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 23:22:38 --> Unknown column 'entry_id' in 'field list'
+CRITICAL - 2021-12-02 23:22:38 --> Unknown column 'entry_id' in 'field list'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT IGNORE I...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT IGNORE I...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT IGNORE I...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT IGNORE I...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Candidate_model.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(215): App\Models\Candidate_model->add_candidate(Array)
+#6 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(201): App\Controllers\Examinations->assign_candidate('CAN_AT3I6I3A4A', 'LVYAH6GWYH')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->push_candidate()
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-12-02 23:25:48 --> Unknown column 'exam_id' in 'where clause'
+CRITICAL - 2021-12-02 23:25:48 --> Unknown column 'exam_id' in 'where clause'
+#0 D:\WampServer\www\cbt_app\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ex...', 0)
+#1 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ex...')
+#2 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ex...')
+#3 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ex...', Array, false)
+#4 D:\WampServer\www\cbt_app\app\Models\Examination_model.php(109): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(210): App\Models\Examination_model->delete_candidate(Array)
+#6 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(201): App\Controllers\Examinations->assign_candidate('CAN_WAMJO09RR6', 'LVYAH6GWYH')
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->push_candidate()
+#8 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-02 23:28:43 --> Undefined variable: checked
+#0 D:\WampServer\www\cbt_app\app\Views\examinations\view_examination.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 279, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LVYAH6GWYH')
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

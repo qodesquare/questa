@@ -1,0 +1,109 @@
+CRITICAL - 2022-01-04 13:41:30 --> Undefined variable $ques_score
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\exam_results_essay.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 262)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(343): view('examinations/ex...', Array)
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('LBT9ZE9')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 14:25:32 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->save_scores()
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 14:25:39 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\includes\side_bar.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 69)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\exam_results_essay.php(52): CodeIgniter\View\View->include('includes/side_b...')
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#8 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(343): view('examinations/ex...', Array)
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('LBT9ZE9')
+#10 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-04 14:26:07 --> Undefined array key "score_sheet"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 420)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->save_scores()
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 16:38:04 --> Undefined array key "access_token"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\view_examination_essay.php(421): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 421)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(220): view('examinations/vi...', Array)
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 16:59:06 --> Undefined array key "access_token"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\view_examination_multichoice.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 459)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(218): view('examinations/vi...', Array)
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('CNPZMZ7Z6O')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 18:15:11 --> Undefined array key "exam_id/CAN_66FY0K2W8U"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\view_examination_essay.php(423): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 423)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(220): view('examinations/vi...', Array)
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 18:15:35 --> Unclosed '(' does not match ']'
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#2 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(220): view('examinations/vi...', Array)
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#4 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 18:15:54 --> Unclosed '(' does not match ']'
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#2 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(220): view('examinations/vi...', Array)
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#4 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 18:16:33 --> Unclosed '(' does not match ']'
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#2 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(220): view('examinations/vi...', Array)
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#4 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-04 18:38:27 --> Undefined constant "ASSET_PATH"
+#0 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include()
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#3 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(220): view('examinations/vi...', Array)
+#4 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,40 @@
+CRITICAL - 2022-07-02 06:56:55 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 12:21:36 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-02 16:49:57 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Helpers/utils_helper.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Views/includes/side_bar.php(54): is_owner_account()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#3 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(432): CodeIgniter\View\View->render()
+#5 /home/qodevnmr/questaonline.xyz/admin/app/Views/examinations/exam_results_essay.php(58): CodeIgniter\View\View->include()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#7 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#9 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(546): view()
+#10 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#11 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-02 23:30:50 --> unlink(/home/qodevnmr/questaonline.xyz/admin/writable/debugbar/debugbar_1656743932.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format()
+#4 /home/qodevnmr/questaonline.xyz/admin/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

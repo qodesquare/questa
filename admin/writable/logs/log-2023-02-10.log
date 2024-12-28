@@ -1,0 +1,32 @@
+CRITICAL - 2023-02-10 08:06:54 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(267): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-10 09:02:59 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Helpers/utils_helper.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(17): is_owner_account()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->index()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-10 11:12:36 --> unlink(/home/qodevnmr/questaonline.xyz/admin/writable/debugbar/debugbar_1676012816.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/Debug/Toolbar/Collectors/History.php(74): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format()
+#4 /home/qodevnmr/questaonline.xyz/admin/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-10 12:48:28 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(444): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

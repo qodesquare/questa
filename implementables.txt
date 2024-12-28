@@ -1,0 +1,36 @@
+
+-----------------------------------------
+Things to implement in this CBT App
+-----------------------------------------
+
+1.  Send examination tickets via email to candidates
+2. 	Breadcrumb links for deadlinks
+3.  Send results to candidates via email
+4.  Reset examination token for individual candidate
+5.	Implement Forgot Password for Owner Accounts [Collaborator accounts not allowed to reset their password]
+6. 	Create Landing Page for Promotion of CBT App
+7. 	Make profile page for candidates to check for stats (Exams taken, Exams assigned, Results) // In consideration
+8.	Implement Performance Indicator for candidates to fill for Exam
+9.	Guest User mode - Provide link to Examinations for Guest users to take examinations
+10.	Implement instant result examinations
+11.	Export questions to PDF for ready to print
+12.	Examiner can pause time for candidates
+13.	Duplicate examinations
+10. Perform LOAD TESTING - Very Important!
+
+-----------------------------------------
+Considerations for Business Logic
+-----------------------------------------
+
+-------------- FREE USERS ---------------
+
+1. 		Remove Maths Equation support
+2. 		Remove print button
+3. 		Set limit to number of questions that can be set for an examination
+4. 		Set limit to number of candidates that can be added
+5. 		Set limit to number of subjects that can be added
+6. 		Set limit to number of classes that can be added
+7. 		Set limit to number of examinations that can be added
+8. 		Disable adding image to questions
+9. 		Can add only 1 user
+10. 	Can set group access rights policies

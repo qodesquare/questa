@@ -1,0 +1,51 @@
+ERROR - 2022-03-01 05:24:10 --> Unknown column 'class_added_by' in 'where clause'
+CRITICAL - 2022-03-01 05:24:10 --> Unknown column 'class_added_by' in 'where clause'
+#0 /home2/agricanm/public_html/questaonline.xyz/admin/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/agricanm/public_html/questaonline.xyz/admin/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/agricanm/public_html/questaonline.xyz/admin/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/agricanm/public_html/questaonline.xyz/admin/system/Database/BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/agricanm/public_html/questaonline.xyz/admin/system/Model.php(723): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /home2/agricanm/public_html/questaonline.xyz/admin/app/Models/Class_model.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 /home2/agricanm/public_html/questaonline.xyz/admin/app/Controllers/Dashboard.php(30): App\Models\Class_model->get_class(Array)
+#7 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#8 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home2/agricanm/public_html/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-01 05:26:52 --> Cannot use object of type mysqli as array
+#0 /home2/agricanm/public_html/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home2/agricanm/public_html/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/agricanm/public_html/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render('candidates/list...', Array, true)
+#3 /home2/agricanm/public_html/questaonline.xyz/admin/app/Controllers/Candidates.php(23): view('candidates/list...', Array)
+#4 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Candidates->index()
+#5 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#6 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/agricanm/public_html/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-01 05:47:42 --> Undefined index: cbt_admin_session
+#0 /home2/agricanm/public_html/questaonline.xyz/admin/app/Controllers/Users.php(215): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home2/agricanm...', 215, Array)
+#1 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Users->profile('USR_GW1ZILSXWH')
+#2 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home2/agricanm/public_html/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 06:00:49 --> Cannot use object of type mysqli as array
+#0 /home2/agricanm/public_html/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home2/agricanm/public_html/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/agricanm/public_html/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#3 /home2/agricanm/public_html/questaonline.xyz/admin/app/Controllers/Examinations.php(223): view('examinations/vi...', Array)
+#4 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination('UYTB0JL')
+#5 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#6 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/agricanm/public_html/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-01 06:04:41 --> Cannot use object of type mysqli as array
+#0 /home2/agricanm/public_html/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home2/agricanm/public_html/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/agricanm/public_html/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render('examinations/ad...', Array, true)
+#3 /home2/agricanm/public_html/questaonline.xyz/admin/app/Controllers/Examinations.php(85): view('examinations/ad...', Array)
+#4 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->add_examination()
+#5 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#6 /home2/agricanm/public_html/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/agricanm/public_html/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

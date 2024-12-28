@@ -1,0 +1,42 @@
+CRITICAL - 2022-05-25 08:43:29 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 09:42:54 --> Undefined variable $data
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Auth.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Auth->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 10:38:13 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Users->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 10:43:23 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Users->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 11:01:43 --> Undefined array key "activation_status"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Auth.php(102): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 11:05:42 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Users.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Users->add_user()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

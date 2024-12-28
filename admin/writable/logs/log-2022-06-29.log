@@ -1,0 +1,204 @@
+CRITICAL - 2022-06-29 00:05:39 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:28:22 --> Undefined constant "UPLOADS_PATH"
+#0 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(293): view()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-29 07:50:49 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:51:53 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:52:09 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:52:11 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:52:15 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:53:02 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:54:20 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 07:55:35 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 08:01:00 --> unlink(uploads/examinations_attachments/1656485840_696f072a92ec0985e3f7.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(382): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:09:35 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 08:10:07 --> unlink(uploads/examinations_attachments/1656486321_0600fd84c53378d5c83f.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:10:12 --> unlink(uploads/examinations_attachments/1656486321_0600fd84c53378d5c83f.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:10:50 --> unlink(uploads/examinations_attachments/1656486321_0600fd84c53378d5c83f.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:13:56 --> unlink(uploads/examinations_attachments/1656486740_9a339a383d341b63d1df.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:14:17 --> unlink(uploads/examinations_attachments/1656486740_9a339a383d341b63d1df.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:15:18 --> unlink(uploads/examinations_attachments/1656486740_9a339a383d341b63d1df.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:15:27 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 08:16:53 --> unlink(uploads/examinations_attachments/1656486965_0e1125009bf01fb691ba.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:17:20 --> unlink(uploads/examinations_attachments/1656486965_0e1125009bf01fb691ba.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:18:08 --> unlink(uploads/examinations_attachments/1656486965_0e1125009bf01fb691ba.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:19:28 --> unlink(uploads/examinations_attachments/1656486965_0e1125009bf01fb691ba.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:19:37 --> unlink(uploads/examinations_attachments/1656486965_0e1125009bf01fb691ba.pptx): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): unlink()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-29 08:21:22 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 08:48:10 --> Trying to access array offset on value of type null
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(384): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->delete_uploaded_file()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 17:41:43 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

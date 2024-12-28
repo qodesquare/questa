@@ -1,0 +1,53 @@
+CRITICAL - 2022-05-26 07:37:43 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 09:46:43 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Users.php(230): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Users->profile()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 17:29:28 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-26 17:29:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xampp\htdocs\questa_app\admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\questa_app\admin\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\questa_app\admin\system\Model.php(723): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 D:\xampp\htdocs\questa_app\admin\app\Models\User_model.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#4 D:\xampp\htdocs\questa_app\admin\app\Controllers\Auth.php(97): App\Models\User_model->get_user(Array)
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#6 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-26 17:30:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-05-26 17:30:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xampp\htdocs\questa_app\admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\questa_app\admin\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\questa_app\admin\system\Model.php(723): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 D:\xampp\htdocs\questa_app\admin\app\Models\User_model.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#4 D:\xampp\htdocs\questa_app\admin\app\Controllers\Auth.php(97): App\Models\User_model->get_user(Array)
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#6 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-26 18:00:00 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\questa_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#2 D:\xampp\htdocs\questa_app\admin\app\Views\examinations\my_list.php(33): CodeIgniter\View\View->include('includes/side_b...')
+#3 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/my...', Array, true)
+#6 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(189): view('examinations/my...', Array)
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->my_list()
+#8 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#9 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

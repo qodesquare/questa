@@ -1,0 +1,152 @@
+CRITICAL - 2022-07-01 07:45:58 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 08:34:23 --> Division by zero
+#0 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(546): view()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 09:01:33 --> Division by zero
+#0 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(546): view()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 09:07:49 --> Division by zero
+#0 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(546): view()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 09:16:16 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 09:17:12 --> Division by zero
+#0 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(546): view()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 09:50:25 --> Division by zero
+#0 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#3 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(546): view()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-01 12:37:20 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 12:41:05 --> Undefined variable $candidate_name
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Views/email_templates/candidate_result_multichoice.php(108): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#2 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Test_controller.php(10): view()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Test_controller->index()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 15:21:54 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 18:45:23 --> Undefined variable $candidate_name
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Views/email_templates/candidate_result_multichoice.php(108): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#2 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Test_controller.php(10): view()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Test_controller->index()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 19:14:33 --> Undefined array key "exam_attempt_id"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Views/examinations/exam_results_multichoice.php(150): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#2 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(544): view()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 19:37:57 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Views/examinations/result_view_essay.php(144): date()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#2 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(580): view()
+#5 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_result()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-01 20:04:59 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 20:10:38 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_examination()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-01 22:24:42 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Helpers/utils_helper.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Views/includes/side_bar.php(54): is_owner_account()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#3 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(432): CodeIgniter\View\View->render()
+#5 /home/qodevnmr/questaonline.xyz/admin/app/Views/examinations/result_view_essay.php(60): CodeIgniter\View\View->include()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#7 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#9 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(580): view()
+#10 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->view_result()
+#11 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

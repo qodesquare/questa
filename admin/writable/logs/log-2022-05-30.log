@@ -1,0 +1,143 @@
+CRITICAL - 2022-05-30 01:36:22 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(663): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 663)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_collation('CL_CXUYWKVQGO')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 02:20:50 --> syntax error, unexpected token ";"
+#0 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#2 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(699): view('examinations/vi...', Array)
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_collation('CL_CXUYWKVQGO')
+#4 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 02:22:37 --> Undefined variable $person_assigned
+#0 D:\xampp\htdocs\questa_app\admin\app\Views\examinations\view_collation.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168)
+#1 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#4 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(699): view('examinations/vi...', Array)
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_collation('CL_CXUYWKVQGO')
+#6 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 02:46:21 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Users.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 02:49:51 --> CodeIgniter\Database\BaseBuilder::join(): Argument #2 ($cond) must be of type string, array given, called in D:\xampp\htdocs\questa_app\admin\app\Models\Base_model.php on line 24
+#0 D:\xampp\htdocs\questa_app\admin\app\Models\Base_model.php(24): CodeIgniter\Database\BaseBuilder->join('examinations_tb', Array)
+#1 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(186): App\Models\Base_model->get_with_join_b('users_to_examin...', 'examinations_tb', 'classes_tb', 'subjects_tb', Array, 'examinations_tb...', 'examinations_tb...')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->my_list()
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#4 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 03:09:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include()
+#1 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\questa_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#3 D:\xampp\htdocs\questa_app\admin\app\Views\candidates\list_of_candidates.php(32): CodeIgniter\View\View->include('includes/side_b...')
+#4 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('candidates/list...', Array, true)
+#7 D:\xampp\htdocs\questa_app\admin\app\Controllers\Candidates.php(23): view('candidates/list...', Array)
+#8 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Candidates->index()
+#9 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#10 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-30 06:16:11 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 228)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 06:17:18 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\questa_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#2 D:\xampp\htdocs\questa_app\admin\app\Views\classes\list_of_classes.php(33): CodeIgniter\View\View->include('includes/side_b...')
+#3 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('classes/list_of...', Array, true)
+#6 D:\xampp\htdocs\questa_app\admin\app\Controllers\Classes.php(16): view('classes/list_of...', Array)
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Classes->index()
+#8 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#9 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-30 06:17:33 --> syntax error, unexpected token ":", expecting ";"
+#0 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\questa_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#2 D:\xampp\htdocs\questa_app\admin\app\Views\classes\list_of_classes.php(33): CodeIgniter\View\View->include('includes/side_b...')
+#3 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('classes/list_of...', Array, true)
+#6 D:\xampp\htdocs\questa_app\admin\app\Controllers\Classes.php(16): view('classes/list_of...', Array)
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Classes->index()
+#8 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#9 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-30 09:23:07 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(650): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 650)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_collation('CL_CXUYWKVQGO')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:24:12 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Users.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 230)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Users->profile('USR_E87T3E20NK')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:32:38 --> Too few arguments to function App\Models\Base_model::get_with_join_c(), 7 passed in D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php on line 211 and at least 8 expected
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(211): App\Models\Base_model->get_with_join_c('examinations_tb', 'classes_tb', 'subjects_tb', 'users_tb', Array, 'examinations_tb...', 'examinations_tb...')
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('164ZSWD')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-30 10:33:14 --> Unknown column 'examinations_tb.assigned_personnel' in 'on clause'
+CRITICAL - 2022-05-30 10:33:14 --> Unknown column 'examinations_tb.assigned_personnel' in 'on clause'
+#0 D:\xampp\htdocs\questa_app\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\questa_app\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\questa_app\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\questa_app\admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\questa_app\admin\app\Models\Base_model.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(211): App\Models\Base_model->get_with_join_c('examinations_tb', 'classes_tb', 'subjects_tb', 'users_tb', Array, 'examinations_tb...', 'examinations_tb...', 'examinations_tb...')
+#6 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('164ZSWD')
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-30 10:54:43 --> Operand should contain 1 column(s)
+CRITICAL - 2022-05-30 10:54:43 --> Operand should contain 1 column(s)
+#0 D:\xampp\htdocs\questa_app\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `examina...', 0)
+#1 D:\xampp\htdocs\questa_app\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `examina...')
+#2 D:\xampp\htdocs\questa_app\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `examina...')
+#3 D:\xampp\htdocs\questa_app\admin\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `examina...', Array, false)
+#4 D:\xampp\htdocs\questa_app\admin\app\Models\Examination_model.php(33): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(602): App\Models\Examination_model->update_exam(Array, Array)
+#6 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->assign_personnel()
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-30 11:07:05 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 228)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('AQG55R5')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

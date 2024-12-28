@@ -1,0 +1,165 @@
+CRITICAL - 2021-12-04 09:49:12 --> Undefined index: exam_title
+#0 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_results.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 53, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(278): view('examinations/ex...', Array)
+#5 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#6 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-04 10:01:07 --> Undefined index: exam_title
+#0 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_results.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 53, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(278): view('examinations/ex...', Array)
+#5 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#6 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-04 10:05:40 --> Call to undefined method App\Models\Candidate_model::get_with_join_a
+#0 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(275): CodeIgniter\Model->__call('get_with_join_a', Array)
+#1 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#2 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 11:58:52 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_results.php(36): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#8 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(282): view('examinations/ex...', Array)
+#9 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#10 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-04 12:04:27 --> Undefined index: 
+#0 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_results.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 93, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(282): view('examinations/ex...', Array)
+#5 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#6 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-04 12:04:33 --> Undefined index: 
+#0 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_results.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 93, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(282): view('examinations/ex...', Array)
+#5 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#6 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-04 12:06:25 --> Undefined index: exam_id
+#0 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_results.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 90, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(282): view('examinations/ex...', Array)
+#5 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#6 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-04 12:21:07 --> syntax error, unexpected ')'
+#0 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#2 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(282): view('examinations/ex...', Array)
+#3 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#4 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-04 12:29:55 --> Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP)
+#0 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_results.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\WampServer\\w...', 122, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(282): view('examinations/ex...', Array)
+#5 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('GC9EBYLMH4')
+#6 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-04 14:37:43 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Views\examinations\view_examination.php(66): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#9 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('GC9EBYLMH4')
+#10 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-04 14:38:04 --> Undefined index: question
+#0 D:\WampServer\www\cbt_app\admin\app\Controllers\Questions.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 129, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Questions->set_answer()
+#2 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 14:38:29 --> A non-numeric value encountered
+#0 D:\WampServer\www\cbt_app\admin\app\Controllers\Questions.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\WampServer\\w...', 129, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Questions->set_answer()
+#2 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 17:42:38 --> Call to undefined method App\Models\Candidate_model::delete_model
+#0 D:\WampServer\www\cbt_app\admin\app\Controllers\Candidates.php(155): CodeIgniter\Model->__call('delete_model', Array)
+#1 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Candidates->delete_exam_attempt('ENT_ZE6JKIT5V2', 'GC9EBYLMH4')
+#2 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidates))
+#3 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 17:44:37 --> Cannot use temporary expression in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-04 18:04:56 --> Undefined variable: data
+#0 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WampServer\\w...', 287, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('GC9EBYLMH4')
+#2 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 18:05:13 --> Argument 2 passed to view() must be of the type array, string given, called in D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php on line 289
+#0 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(289): view('examinations/ex...', '')
+#1 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('GC9EBYLMH4')
+#2 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 23:35:48 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\admin\app\Views\examinations\exam_tickets.php(36): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\admin\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#8 D:\WampServer\www\cbt_app\admin\app\Controllers\Examinations.php(290): view('examinations/ex...', Array)
+#9 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('GC9EBYLMH4')
+#10 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\WampServer\www\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

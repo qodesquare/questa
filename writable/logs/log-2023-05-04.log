@@ -1,0 +1,71 @@
+CRITICAL - 2023-05-04 17:01:16 --> Undefined array key "cbt_app_login_session"
+#0 D:\xampp\htdocs\questa_app\app\Views\includes\top_bar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 12)
+#1 D:\xampp\htdocs\questa_app\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\questa_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\questa_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\xampp\htdocs\questa_app\app\Views\dashboard.php(40): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\xampp\htdocs\questa_app\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\questa_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\questa_app\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#8 D:\xampp\htdocs\questa_app\app\Controllers\Dashboard.php(15): view('dashboard', Array)
+#9 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#10 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-04 17:21:07 --> Undefined array key "cbt_app_login_session"
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 20)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->index()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-04 21:34:43 --> Undefined array key "cbt_app_login_session"
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 20)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->index()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-04 22:43:44 --> Attempt to read property "answer" on int
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 61)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->save_generated_exam()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-04 22:46:13 --> Attempt to read property "answer" on int
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 61)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->save_generated_exam()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-04 23:24:05 --> Undefined array key 0
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 83)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->save_generated_exam()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-04 23:24:54 --> Undefined array key 0
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 83)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->save_generated_exam()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-04 23:25:48 --> Undefined array key 0
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 83)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->save_generated_exam()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-04 23:29:52 --> Undefined array key 0
+#0 D:\xampp\htdocs\questa_app\app\Controllers\Generate_exams.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 83)
+#1 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(824): App\Controllers\Generate_exams->save_generated_exam()
+#2 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_exams))
+#3 D:\xampp\htdocs\questa_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

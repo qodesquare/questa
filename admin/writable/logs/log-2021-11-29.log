@@ -1,0 +1,9 @@
+CRITICAL - 2021-11-29 22:49:06 --> syntax error, unexpected 'includes' (T_STRING), expecting ',' or ';'
+#0 D:\WampServer\www\kiaalap_cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\WampServer\www\kiaalap_cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 D:\WampServer\www\kiaalap_cbt_app\app\Controllers\Home.php(9): view('welcome_message')
+#3 D:\WampServer\www\kiaalap_cbt_app\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\WampServer\www\kiaalap_cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WampServer\www\kiaalap_cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WampServer\www\kiaalap_cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

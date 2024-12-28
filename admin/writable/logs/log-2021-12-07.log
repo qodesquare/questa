@@ -1,0 +1,134 @@
+ERROR - 2021-12-07 02:45:58 --> Unknown column 'examination_id' in 'where clause'
+CRITICAL - 2021-12-07 02:45:58 --> Unknown column 'examination_id' in 'where clause'
+#0 D:\xampp\htdocs\cbt_app\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Models\Examination_model.php(51): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(271): App\Models\Examination_model->get_item(Array)
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('UL2Y2EZQGC')
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-07 04:28:31 --> syntax error, unexpected token "endif"
+#0 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#2 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(293): view('examinations/ex...', Array)
+#3 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#4 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 04:28:40 --> Undefined variable $exam_tickets
+#0 D:\xampp\htdocs\cbt_app\admin\app\Views\examinations\exam_tickets.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(293): view('examinations/ex...', Array)
+#5 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 04:29:02 --> Undefined variable $exam_tickets
+#0 D:\xampp\htdocs\cbt_app\admin\app\Views\examinations\exam_tickets.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(293): view('examinations/ex...', Array)
+#5 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-07 04:29:21 --> Table 'cbt_app_db.candidate_tb' doesn't exist
+CRITICAL - 2021-12-07 04:29:21 --> Table 'cbt_app_db.candidate_tb' doesn't exist
+#0 D:\xampp\htdocs\cbt_app\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Models\Base_model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(297): App\Models\Base_model->get_with_join_b('examinations_ca...', 'examinations_tb', 'candidate_tb', Array, 'examinations_ca...', 'examinations_ca...')
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-07 04:29:32 --> Table 'cbt_app_db.candidate_tb' doesn't exist
+CRITICAL - 2021-12-07 04:29:32 --> Table 'cbt_app_db.candidate_tb' doesn't exist
+#0 D:\xampp\htdocs\cbt_app\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Models\Base_model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(297): App\Models\Base_model->get_with_join_b('examinations_ca...', 'examinations_tb', 'candidate_tb', Array, 'examinations_ca...', 'examinations_ca...')
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-07 04:29:35 --> Table 'cbt_app_db.candidate_tb' doesn't exist
+CRITICAL - 2021-12-07 04:29:35 --> Table 'cbt_app_db.candidate_tb' doesn't exist
+#0 D:\xampp\htdocs\cbt_app\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\cbt_app\admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Models\Base_model.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(297): App\Models\Base_model->get_with_join_b('examinations_ca...', 'examinations_tb', 'candidate_tb', Array, 'examinations_ca...', 'examinations_ca...')
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#8 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-07 04:29:43 --> Undefined variable $examination
+#0 D:\xampp\htdocs\cbt_app\admin\app\Views\examinations\exam_tickets.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(301): view('examinations/ex...', Array)
+#5 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 04:30:23 --> Undefined array key "exam_title"
+#0 D:\xampp\htdocs\cbt_app\admin\app\Views\examinations\exam_tickets.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(303): view('examinations/ex...', Array)
+#5 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#6 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 04:53:36 --> Undefined variable $mdoel
+#0 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Users.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 22)
+#1 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Users->add_user()
+#2 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 04:54:54 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Users.php(24): count(NULL)
+#1 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Users->add_user()
+#2 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 06:20:01 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 25)
+#1 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Views\examinations\exam_tickets.php(36): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#8 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(303): view('examinations/ex...', Array)
+#9 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->tickets('UL2Y2EZQGC')
+#10 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

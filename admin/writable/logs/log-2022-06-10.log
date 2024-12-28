@@ -1,0 +1,151 @@
+CRITICAL - 2022-06-10 11:04:12 --> Undefined array key "cbt_admin_session"
+#0 /home/qodevnmr/questaonline.xyz/admin/app/Helpers/utils_helper.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/qodevnmr/questaonline.xyz/admin/app/Views/includes/side_bar.php(58): is_owner_account()
+#2 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#3 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(432): CodeIgniter\View\View->render()
+#5 /home/qodevnmr/questaonline.xyz/admin/app/Views/examinations/exam_results_multichoice.php(52): CodeIgniter\View\View->include()
+#6 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(214): include('/home/qodevnmr/...')
+#7 /home/qodevnmr/questaonline.xyz/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 /home/qodevnmr/questaonline.xyz/admin/system/Common.php(1097): CodeIgniter\View\View->render()
+#9 /home/qodevnmr/questaonline.xyz/admin/app/Controllers/Examinations.php(389): view()
+#10 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(824): App\Controllers\Examinations->results()
+#11 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#12 /home/qodevnmr/questaonline.xyz/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /home/qodevnmr/questaonline.xyz/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-06-10 11:46:43 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 205)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('164ZSWD')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 13:11:53 --> Call to a member function isValid() on null
+#0 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file_attachments('164ZSWD')
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 13:13:25 --> Call to a member function isValid() on null
+#0 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file_attachments('164ZSWD')
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 13:14:05 --> Call to a member function isValid() on null
+#0 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file_attachments('164ZSWD')
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 13:18:09 --> Call to a member function isValid() on null
+#0 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file_attachments('164ZSWD')
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-10 13:20:20 --> Undefined variable $question_id
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 316)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file_attachments('164ZSWD')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 15:04:25 --> finfo_file(D:\xampp\tmp\phpFD87.tmp): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(D:\\x...', 'D:\\xampp\\htdocs...', 109)
+#1 D:\xampp\htdocs\questa_app\admin\system\Files\File.php(109): finfo_file(Resource id #125, 'D:\\xampp\\tmp\\ph...')
+#2 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(321): CodeIgniter\Files\File->getMimeType()
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->upload_file_attachments('164ZSWD')
+#4 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 15:04:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "{0}". in D:\xampp\htdocs\questa_app\admin\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 D:\xampp\htdocs\questa_app\admin\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\xampp\htdocs\questa_app\admin\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\xampp\htdocs\questa_app\admin\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\xampp\htdocs\questa_app\admin\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-10 16:17:59 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(352): json_decode(Array)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->get_file_attachments('164ZSWD')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 22:14:10 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 205)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('164ZSWD')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-10 23:07:40 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Helpers\utils_helper.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 76)
+#1 D:\xampp\htdocs\questa_app\admin\app\Views\includes\side_bar.php(58): is_owner_account()
+#2 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\questa_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#5 D:\xampp\htdocs\questa_app\admin\app\Views\examinations\exam_results_essay.php(52): CodeIgniter\View\View->include('includes/side_b...')
+#6 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#9 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(449): view('examinations/ex...', Array)
+#10 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('EI8A6X4')
+#11 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#12 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-06-10 23:09:06 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Helpers\utils_helper.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 76)
+#1 D:\xampp\htdocs\questa_app\admin\app\Views\includes\side_bar.php(58): is_owner_account()
+#2 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp\htdocs\questa_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#5 D:\xampp\htdocs\questa_app\admin\app\Views\examinations\exam_results_essay.php(52): CodeIgniter\View\View->include('includes/side_b...')
+#6 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#9 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(449): view('examinations/ex...', Array)
+#10 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('EI8A6X4')
+#11 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#12 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-06-10 23:23:23 --> syntax error, unexpected variable "$ques_score", expecting "," or ";"
+#0 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#2 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(449): view('examinations/ex...', Array)
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('EI8A6X4')
+#4 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 23:26:32 --> Undefined variable $result_score_array
+#0 D:\xampp\htdocs\questa_app\admin\app\Views\examinations\exam_results_essay.php(297): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 297)
+#1 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(449): view('examinations/ex...', Array)
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('EI8A6X4')
+#6 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 23:33:38 --> Array to string conversion
+#0 D:\xampp\htdocs\questa_app\admin\app\Views\examinations\exam_results_essay.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\xampp\\htdocs...', 295)
+#1 D:\xampp\htdocs\questa_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\questa_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/ex...', Array, true)
+#4 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(449): view('examinations/ex...', Array)
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->results('EI8A6X4')
+#6 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#7 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

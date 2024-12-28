@@ -1,0 +1,83 @@
+CRITICAL - 2021-11-30 13:40:16 --> Class 'App\Controllers\User_model' not found
+#0 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-30 13:52:05 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-30 13:52:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\WampServer\www\cbt_app\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WampServer\www\cbt_app\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WampServer\www\cbt_app\system\Model.php(723): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 D:\WampServer\www\cbt_app\app\Models\User_model.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#4 D:\WampServer\www\cbt_app\app\Controllers\Auth.php(76): App\Models\User_model->get_user(Array)
+#5 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#6 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 13:55:13 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Controllers\Dashboard.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 9, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 13:55:23 --> Use of undefined constant COLOR_INFO - assumed 'COLOR_INFO' (this will throw an Error in a future version of PHP)
+#0 D:\WampServer\www\cbt_app\app\Controllers\Auth.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\WampServer\\w...', 129, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Auth->sign_out()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 13:58:38 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Controllers\Dashboard.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 9, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 14:42:58 --> Undefined index: first_name
+#0 D:\WampServer\www\cbt_app\app\Controllers\Auth.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 89, Array)
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 14:43:09 --> syntax error, unexpected '[', expecting '}'
+#0 D:\WampServer\www\cbt_app\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/sign_in')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/sign_in')
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 14:43:11 --> syntax error, unexpected '[', expecting '}'
+#0 D:\WampServer\www\cbt_app\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/sign_in')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/sign_in')
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 14:43:16 --> syntax error, unexpected '[', expecting '}'
+#0 D:\WampServer\www\cbt_app\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('auth/sign_out')
+#1 D:\WampServer\www\cbt_app\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('auth/sign_out')
+#2 D:\WampServer\www\cbt_app\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-30 15:43:07 --> Undefined index: cbt_admin_session
+#0 D:\WampServer\www\cbt_app\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WampServer\\w...', 25, Array)
+#1 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#2 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WampServer\www\cbt_app\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\WampServer\www\cbt_app\app\Views\users\list_of_users.php(36): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\WampServer\www\cbt_app\system\View\View.php(214): include('D:\\WampServer\\w...')
+#6 D:\WampServer\www\cbt_app\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WampServer\www\cbt_app\system\Common.php(1097): CodeIgniter\View\View->render('users/list_of_u...', Array, true)
+#8 D:\WampServer\www\cbt_app\app\Controllers\Users.php(9): view('users/list_of_u...')
+#9 D:\WampServer\www\cbt_app\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#10 D:\WampServer\www\cbt_app\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#11 D:\WampServer\www\cbt_app\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WampServer\www\cbt_app\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

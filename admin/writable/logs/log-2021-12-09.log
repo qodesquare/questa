@@ -1,0 +1,28 @@
+CRITICAL - 2021-12-09 21:15:18 --> Undefined index: cbt_admin_session
+#0 /home/pharffbh/public_html/cbt_app/admin/app/Views/includes/top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/pharffbh/...', 25, Array)
+#1 /home/pharffbh/public_html/cbt_app/admin/system/View/View.php(214): include('/home/pharffbh/...')
+#2 /home/pharffbh/public_html/cbt_app/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/pharffbh/public_html/cbt_app/admin/system/View/View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 /home/pharffbh/public_html/cbt_app/admin/app/Views/dashboard.php(34): CodeIgniter\View\View->include('includes/top_ba...')
+#5 /home/pharffbh/public_html/cbt_app/admin/system/View/View.php(214): include('/home/pharffbh/...')
+#6 /home/pharffbh/public_html/cbt_app/admin/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/pharffbh/public_html/cbt_app/admin/system/Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#8 /home/pharffbh/public_html/cbt_app/admin/app/Controllers/Dashboard.php(9): view('dashboard')
+#9 /home/pharffbh/public_html/cbt_app/admin/system/CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#10 /home/pharffbh/public_html/cbt_app/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 /home/pharffbh/public_html/cbt_app/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/pharffbh/public_html/cbt_app/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-12-09 21:22:26 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-12-09 21:22:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /home/pharffbh/public_html/cbt_app/admin/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/pharffbh/public_html/cbt_app/admin/system/Database/BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/pharffbh/public_html/cbt_app/admin/system/Model.php(723): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 /home/pharffbh/public_html/cbt_app/admin/app/Models/User_model.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#4 /home/pharffbh/public_html/cbt_app/admin/app/Controllers/Auth.php(66): App\Models\User_model->get_user(Array)
+#5 /home/pharffbh/public_html/cbt_app/admin/system/CodeIgniter.php(824): App\Controllers\Auth->sign_in()
+#6 /home/pharffbh/public_html/cbt_app/admin/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/pharffbh/public_html/cbt_app/admin/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/pharffbh/public_html/cbt_app/admin/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

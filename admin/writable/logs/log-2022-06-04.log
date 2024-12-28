@@ -1,0 +1,9 @@
+CRITICAL - 2022-06-04 16:02:37 --> Invalid file: {0}
+#0 D:\xampp\htdocs\questa_app\admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_templates...')
+#1 D:\xampp\htdocs\questa_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('email_templates...', Array, true)
+#2 D:\xampp\htdocs\questa_app\admin\app\Controllers\Test_controller.php(12): view('email_templates...', Array)
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Test_controller->index()
+#4 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test_controller))
+#5 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

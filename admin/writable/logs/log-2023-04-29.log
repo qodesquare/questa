@@ -1,0 +1,8 @@
+ERROR - 2023-04-29 19:49:46 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2023-04-29 22:30:03 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\questa_app\admin\app\Controllers\Examinations.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 267)
+#1 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('0DAXAXN')
+#2 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#3 D:\xampp\htdocs\questa_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\questa_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

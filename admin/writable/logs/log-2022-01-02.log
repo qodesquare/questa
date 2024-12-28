@@ -1,0 +1,65 @@
+CRITICAL - 2022-01-02 08:15:03 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\includes\side_bar.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 69)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\view_examination_essay.php(75): CodeIgniter\View\View->include('includes/side_b...')
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(220): view('examinations/vi...', Array)
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('LBT9ZE9')
+#10 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-02 08:17:56 --> Undefined array key "points"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 155)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->set_points()
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 08:20:34 --> Undefined array key "points"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 155)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->set_points()
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 08:21:36 --> Undefined array key "points"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 155)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->set_points()
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 08:34:31 --> Undefined array key "question_id"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 127)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->delete_question()
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 08:36:00 --> Undefined array key "question_id"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Questions.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 127)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Questions->delete_question()
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-02 13:23:46 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app_server\admin\app\Views\includes\side_bar.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 69)
+#1 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/side_b...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app_server\admin\app\Views\examinations\list_of_exams.php(33): CodeIgniter\View\View->include('includes/side_b...')
+#5 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app_server\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app_server\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/li...', Array, true)
+#8 D:\xampp\htdocs\cbt_app_server\admin\app\Controllers\Examinations.php(25): view('examinations/li...', Array)
+#9 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->index()
+#10 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\xampp\htdocs\cbt_app_server\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app_server\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

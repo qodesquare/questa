@@ -1,0 +1,36 @@
+CRITICAL - 2021-12-06 12:11:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\cbt_app\admin\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\cbt_app\admin\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-06 05:12:38 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 25)
+#1 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Views\dashboard.php(34): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('dashboard', Array, true)
+#8 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Dashboard.php(9): view('dashboard')
+#9 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#10 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-12-06 10:27:16 --> Undefined array key "cbt_admin_session"
+#0 D:\xampp\htdocs\cbt_app\admin\app\Views\includes\top_bar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 25)
+#1 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(432): CodeIgniter\View\View->render('includes/top_ba...', NULL, true)
+#4 D:\xampp\htdocs\cbt_app\admin\app\Views\examinations\view_examination.php(66): CodeIgniter\View\View->include('includes/top_ba...')
+#5 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\cbt_app\admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\cbt_app\admin\system\Common.php(1097): CodeIgniter\View\View->render('examinations/vi...', Array, true)
+#8 D:\xampp\htdocs\cbt_app\admin\app\Controllers\Examinations.php(165): view('examinations/vi...', Array)
+#9 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(824): App\Controllers\Examinations->view_examination('UL2Y2EZQGC')
+#10 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Examinations))
+#11 D:\xampp\htdocs\cbt_app\admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\cbt_app\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
